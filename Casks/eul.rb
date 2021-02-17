@@ -6,7 +6,7 @@ cask "eul" do
   appcast "https://github.com/gao-sun/eul/releases.atom"
   name "eul"
   desc "Status monitoring"
-  homepage "https://github.com/gao-sun/eul"
+  homepage "https://github.com/gao-sun/eul "
 
   depends_on macos: ">= :catalina"
 
@@ -14,3 +14,4 @@ cask "eul" do
 
   zap trash: "~/Library/Preferences/com.gaosun.eul.plist"
 end
+ 
